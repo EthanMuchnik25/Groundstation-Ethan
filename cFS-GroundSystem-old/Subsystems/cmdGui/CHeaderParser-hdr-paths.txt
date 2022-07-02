@@ -1,0 +1,29 @@
+# filename: CHeaderParser-hdr-paths.txt
+# description: 
+#	(For use with CHeaderParser.py)
+# 	This file contains the filepaths to the header files which contain command
+#	code definitions and command structures for your specified cFS application.
+#	For easiest use of this program, it is best to only add header files for 
+#	one application at a time (simply comment the others out with '#').
+#
+#	Important Note:
+#	CHeaderParser.py ignores any lines that start with '#' and reads in every 
+#	other line as a filepath to a header file.
+#
+#   This program does support relative paths but if the program cannot 
+#	find your header files, try using absolute paths.
+#
+#../../../../apps/to_lab/fsw/src/to_lab_msg.h
+#../../../../apps/cmd_ingest/fsw/src/tlm_output_msh.h
+#../../../../apps/moonranger_msgs/fsw/public_inc/camera_if_msg.h
+#../../../../apps/moonranger_msgs/fsw/public_inc/vc_msg.h
+#../../../../apps/moonranger_msgs/fsw/public_inc/moonranger_msgids.h
+../../../../apps/moonranger_msgs/fsw/public_inc/goal_msg.h
+../../../../apps/moonranger_msgs/fsw/public_inc/pose_msg.h
+../../../../apps/logger/fsw/src/logger_msg.h
+
+#../../../../cfe/fsw/cfe-core/src/inc/cfe_es_msg.h
+#../../../../cfe/fsw/cfe-core/src/inc/cfe_time_msg.h
+#../../../../cfe/fsw/cfe-core/src/inc/cfe_evs_msg.h
+#../../../../cfe/fsw/cfe-core/src/inc/cfe_sb_msg.h
+#../../../../cfe/fsw/cfe-core/src/inc/cfe_tbl_msg.h
